@@ -57,7 +57,7 @@ A task has a title, optional notes, and a status. This is defined in `app/Models
 - `public/css/board.css` — plain CSS for the board; three columns, collapsing to one column below 720px
 - `database/migrations/2026_10_25_000000_create_tasks_table.php` — the tasks table
 
-Styled with plain CSS and no JavaScript build step.
+The board is styled with plain CSS and needs no JavaScript build step to run. The unused Laravel Vite/Tailwind scaffold is still in the repo.
 
 ## License
 
